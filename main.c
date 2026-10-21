@@ -2,7 +2,7 @@
 
 int main() {
   int t;
-  if (t<15){
+  if (t>15){
     printf("LANH");
  
   }else if (t < 25){
@@ -12,7 +12,7 @@ int main() {
     print("NONG");
   
   }else{
-    printf("RAT_NONG")
+    printf("RAT_NONG");
   
   }  
   return 0;
