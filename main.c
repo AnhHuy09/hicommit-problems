@@ -14,10 +14,11 @@ int main() {
     
      }if (khoang_cach <= 5) {
         printf("15000");
+        return 0;
     } if (khoang_cach <= 15) {
         printf("25000");
         return 0;
     }
-        printf("40000");
-  return 0;
+    printf("40000");
+    return 0;
 }
