@@ -1,16 +1,16 @@
 #include <stdio.h>
 
 int main() {
-    int khoangcach, giatri;
-    scanf("%d %d", &khoangcach, &giatri);
+    int khoang_cach, gia_tri;
+    scanf("%d %d", &khoang_cach, &gia_tri);
 
-    if (khoangcach <= 0 || giatri < 0) {
+    if (khoang_cach <= 0 || giatri < 0) {
         printf("INVALID");
-    } if (giatri >= 500000 && khoangcach <= 15) {
+    } if (gia_tri >= 500000 && khoang_cach <= 15) {
         printf("0");
-    } if (khoangcach <= 5) {
+    } if (khoang_cach <= 5) {
         printf("15000");
-    } if (khoangcach <= 15) {
+    } if (khoang_cach <= 15) {
         printf("25000");
     }
         printf("40000");
