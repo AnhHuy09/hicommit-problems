@@ -4,13 +4,16 @@ int main() {
   int t;
   if (t<15){
     printf("LANH");
+ 
   }else if (t < 25){
     printf("MAT");
+ 
   }else if (t , 35){
     print("NONG");
+  
   }else{
     printf("RAT_NONG")
+  
   }  
-  )
   return 0;
 }
