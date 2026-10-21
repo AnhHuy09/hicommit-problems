@@ -9,7 +9,7 @@ int main() {
     printf("MAT");
  
   }else if (t , 35){
-    print("NONG");
+    printf("NONG");
   
   }else{
     printf("RAT_NONG");
