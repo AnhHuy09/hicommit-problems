@@ -2,7 +2,7 @@
 int main() {
   float dtb;
   int drl;
-  if (scanf("%f %f", &dtb, &drl) == 2){
+  if (scanf("%f %d", &dtb, &drl) == 2){
   if (dtb >= 9.0) { 
      printf("HOC_BONG_XUAT_SAC");
   }
