@@ -14,6 +14,6 @@ int main() {
     puts("XEP_LOAI_TRUNG_BINH");
    default:
     puts("KHONG_HOP_LE");
-      
+  }    
   return 0;
 }
