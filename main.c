@@ -4,13 +4,13 @@ int main() {
   int code;
   scanf("%d", &code);
   switch(code);
-   case1;
+  case 1:
     pust("XEP_LOAI_XUAT_SAC");
-   case2;
+  case 2:
     pust("XEP_LOAI_GIOI");
-   case3;
+  case 3:
     pust("XEP_LOAI_KHA");
-   case4;
+  case 4:
     pust("XEP_LOAI_TRUNG_BINH");
    default;
     pust("KHONG_HOP_LE");
