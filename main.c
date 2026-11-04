@@ -13,6 +13,6 @@ int main() {
   case 4:
     puts("XEP_LOAI_TRUNG_BINH");
    default;
-    pust("KHONG_HOP_LE");
+    puts("KHONG_HOP_LE");
   return 0;
 }
